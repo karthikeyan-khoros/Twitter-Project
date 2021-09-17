@@ -1,6 +1,5 @@
 package com.myproject;
 
-
 import twitter4j.Twitter;
 import java.util.Scanner;
 import java.io.IOException;
