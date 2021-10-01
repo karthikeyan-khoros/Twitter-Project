@@ -1,14 +1,11 @@
-package com.myproject;
-
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Scanner;
-
+import twitter4j.Paging;
 import twitter4j.Status;
 import twitter4j.Twitter;
-import twitter4j.Paging;
 import twitter4j.TwitterException;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class HomeLineViewer {
 
@@ -29,7 +26,7 @@ public class HomeLineViewer {
         List<Status> statuses = new ArrayList<Status>();
 
         try {
-           statuses  = twitter.getHomeTimeline(paging);
+            statuses  = twitter.getHomeTimeline(paging);
         }
 
         catch(TwitterException e)

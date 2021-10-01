@@ -1,5 +1,3 @@
-package com.myproject;
-
 import java.io.InputStream;
 import java.io.IOException;
 import java.io.FileNotFoundException;
@@ -11,7 +9,7 @@ public class PropertyReader {
 
         Properties prop = new Properties();
 
-        String propFileName = "com/myproject/config.properties";
+        String propFileName = "config.properties";
         inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
 
         if(inputStream!=null){

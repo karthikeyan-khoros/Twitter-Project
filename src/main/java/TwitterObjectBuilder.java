@@ -1,7 +1,6 @@
-package com.myproject;
-
 import java.io.IOException;
 import java.util.Properties;
+
 
 import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;

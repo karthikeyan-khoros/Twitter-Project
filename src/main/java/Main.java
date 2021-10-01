@@ -1,9 +1,7 @@
-package com.myproject;
-
-
 import twitter4j.Twitter;
-import java.util.Scanner;
+
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
 
@@ -16,10 +14,10 @@ public class Main {
         int choice;
         boolean run=true;
 
-        System.out.println("-----------------------------------------Welcome to Tweet@Java------------------------------------------\n");
+        System.out.println("-----------------------------------------Welcome to Tweet@Java------------------------------------------\n\n");
 
         while(run) {
-            System.out.print("\n-------------------Options-------------------\n" +
+            System.out.print("-------------------Options-------------------\n" +
                     "1. Post a Tweet\n" +
                     "2. Watch TimeLine\n" +
                     "3. Exit\n\n" +

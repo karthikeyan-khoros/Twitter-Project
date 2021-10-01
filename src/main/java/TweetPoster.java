@@ -1,5 +1,3 @@
-package com.myproject;
-
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -19,11 +17,11 @@ public class TweetPoster {
 
         catch (TwitterException e)
         {
-            System.out.println("^^^^^^^^^^^^^^^ Operation Failed ^^^^^^^^^^^^^^^");
+            System.out.println("^^^^^^^^^^^^^^^ Operation Failed ^^^^^^^^^^^^^^^\n");
             if(e.getErrorCode()==-1)
                 System.out.println("Network Connectivity Error");
             else
-            System.out.println(e.getErrorMessage());
+                System.out.println(e.getErrorMessage());
         }
     }
 }
